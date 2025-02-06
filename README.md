@@ -1,30 +1,5 @@
-- 👋 Hi, I’m @Akramskii
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Akramskii/Akramskii is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-
-$nomention
-$addCmdReactions[$getVar[correct]]
-$onlyForServers[738747595438030888;]
-$addReactions[⬆;⬇;🔶]
-$onlyIf[$checkContains[$message[1];Server;CRBT;Other;clembs.xyz]==true;$getVar[wrong] **You need to suggest something with that theme:** Server, CRBT, Other or clembs.xyz]
-
-$useChannel[channel ID]
-
-$authorIcon[$authorAvatar]
-$author[$username#$discriminator[$authorID]]
-
-$title[Suggestion // $message[1]]
-
-$description[```$replaceText[$message;$message[1];;1]```]
-
-$footer[⬆️ Upvote - ⬇️ Downvote - ✔ Will be added - ❌ Won't be added - 🔶 Already added]
-
-$color[$getVar[border color]]
+- 👋 Hello ! Je suis Mithuchaan (s/o Akram - @Akramskii)
+- 👀 Je suis intéressé par trois domaines : le design graphique, le développement (BDFD, PWN, JS, HTML, C) et le marketing. Et je ne parle même pas de l’IA, qui prend une place de plus en plus importante dans ma vie... Je n’aurais jamais imaginé ça haha !
+- 🌱 J’essaie de développer mes compétences dans ces secteurs qui sont très différents. J’aime apprendre, mais attention, pas trop non plus, histoire d’éviter l’overdose haha ! Je suis encore débutant dans ces domaines, mais mon objectif est de devenir un expert. Actuellement, je me spécialise en marketing dans le cadre de mes études.
+- 💞️ Ici, je vais vous partager mes créations, notamment autour de deux univers : les bots Discord, ainsi que les plugins, gamemodes et filterscripts sur SA:MP.
+- 📫 Pour me joindre, retrouvez-moi sur LinkedIn, ou contactez-moi via mon portfolio : mithuchaan.cloud.
